@@ -1,0 +1,87 @@
+/* Header styles */
+header {
+    background-color: darkblue; /* Dark blue background */
+    color: white; /* White text color */
+    padding: 20px 10px; /* Padding for spacing */
+    text-align: center; /* Center-align text */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow for depth effect */
+}
+
+nav {
+    margin-top: 10px; /* Space above navigation links */
+}
+
+nav a {
+    color: white; /* White text color */
+    margin: 0 10px; /* Spacing between links */
+    text-decoration: none; /* No underline */
+    font-weight: bold; /* Bold text */
+    padding: 5px 10px; /* Padding for clickable area */
+    border-radius: 5px; /* Rounded corners for links */
+    transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+
+nav a:hover {
+    background-color: #1E90FF; /* Light blue background on hover */
+    text-decoration: none; /* Ensure no underline on hover */
+}
+
+/* Main section styles */
+main {
+    font-family: Arial, sans-serif; /* Font for main content */
+    padding: 20px; /* Inner spacing */
+    background-color: deepskyblue; /* Sky blue background */
+    border-radius: 8px; /* Rounded corners */
+    margin: 20px auto; /* Center-align with auto margin */
+    max-width: 800px; /* Set maximum width for content */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Slightly stronger shadow */
+    color: white; /* White text for readability */
+}
+
+main section {
+    margin-bottom: 20px; /* Space between sections */
+}
+
+/* Footer styles */
+footer {
+    text-align: center; /* Center-align text */
+    background-color: cornflowerblue; /* Light blue background */
+    color: white; /* White text color */
+    padding: 15px 0; /* Padding for spacing */
+    margin-top: 20px; /* Space above footer */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow for depth */
+    font-size: 14px; /* Smaller text size */
+}
+
+/* Heading styles */
+h1, h2 {
+    font-family: 'Georgia', serif; /* Serif font for headings */
+    margin-bottom: 20px; /* Space below headings */
+}
+
+h1 {
+    font-size: 28px; /* Larger font size for main heading */
+    text-transform: uppercase; /* Uppercase text */
+    letter-spacing: 1px; /* Add spacing between letters */
+}
+
+h2 {
+    font-size: 22px; /* Slightly smaller heading size */
+}
+
+/* Paragraph styles */
+p {
+    line-height: 1.8; /* Increase line height for readability */
+    color: white; /* White text */
+    font-size: 16px; /* Standard font size */
+}
+
+/* General body styles */
+body {
+    margin: 0; /* Remove default margins */
+    padding: 0; /* Remove default padding */
+    background-color: #f4f4f4; /* Light gray background for contrast */
+    font-family: Arial, sans-serif; /* Default font for the body */
+}
